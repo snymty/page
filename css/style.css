@@ -671,6 +671,17 @@ nav#footer{
 #footer a:hover{
 	color: #c59a6d;}
 
-  .color_h2{
+.color_h2{
     color:#3A2511;
-  }
+}
+.text_format{
+  line-height: 1.7;
+}
+
+@font-face {
+    font-family: 'custom_font' format('truetype');
+    url(../font/SegoePrint.ttf)
+}
+.span_custom_font{
+  font-family: Sagoe Print;
+}
