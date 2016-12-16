@@ -61,7 +61,7 @@ a:focus{
 	text-decoration: none;
 }
 #domov{
-	background: url(../img/room.jpg);
+	background: url(../img/room_low.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -684,4 +684,7 @@ nav#footer{
 }
 .span_custom_font{
   font-family: Sagoe Print;
+}
+.image_center{
+  margin: 0 auto;
 }
