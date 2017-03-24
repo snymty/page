@@ -24,12 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .parallax {
@@ -185,7 +186,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.3);
 }
 
 .carousel-fade .carousel-inner .active {
@@ -275,6 +276,7 @@ section {
 
 .navbar-brand h1 {
   margin-top: 5px;
+  background-image: url(../images/logo/brez_ozadja/biotherm_prireditve_logo_navadno_svetlo.png)
 }
 
 /*************************
@@ -851,7 +853,7 @@ section {
 **************************/
 
 #contact {
-  padding-top: 45px;
+  padding-top: 0px;
   padding-bottom: 0;
 }
 
