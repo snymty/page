@@ -325,7 +325,7 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-  background-image: url(../images/biotherm-mixer.jpg);
+  background-image: url(../images/mic-bw.jpeg);
   padding: 60px 0;
 }
 
@@ -586,7 +586,7 @@ section {
 **************************/
 #features {
   text-align: center;
-  background-image: url(../images/biotherm-mixer-2.jpg);
+  background-image: url(../images/dj-gear.jpeg);
 }
 
 #features i {
