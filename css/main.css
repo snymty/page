@@ -33,6 +33,27 @@ h3 {
   font-size: 25px;
 }
 
+img { max-width: 100%; height: auto; }
+/*************************
+********Start CSS**********
+**************************/
+#start {
+  background-image: url(../img/bgd-max.jpg);
+  height: 100vh;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+
+
+/*************************
+********Start CSS**********
+**************************/
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -275,8 +296,7 @@ section {
 }
 
 .navbar-brand h1 {
-  margin-top: 5px;
-  background-image: url(../images/logo/brez_ozadja/biotherm_prireditve_logo_navadno_svetlo.png)
+
 }
 
 /*************************
@@ -325,7 +345,7 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-  background-image: url(../images/mic-bw.jpeg);
+  background-image: url(../images/mic-darke4k.jpg);
   padding: 60px 0;
 }
 
@@ -586,7 +606,7 @@ section {
 **************************/
 #features {
   text-align: center;
-  background-image: url(../images/dj-gear.jpeg);
+  background-image: url(../images/mixer-bw.jpg);
 }
 
 #features i {
@@ -862,12 +882,12 @@ section {
 }
 
 #contact-us {
-  background-image:url(../images/biotherm-cable.jpeg);
+  background-image:url(../images/biotherm-moving-head4k1.jpg);
   padding-bottom: 90px;
 }
 
 #contact-us .heading {
-  padding-top: 95px;
+  padding-top: 0px;
 }
 
 .form-control {
