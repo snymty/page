@@ -66,11 +66,11 @@ hr{
   color:#3A2511;
   background-color: rgba(200,200,200,1);
 }
-
+/*computer screen*/
 @media only screen and (min-width: 1919px) {
 
   .container-padding{
-    padding-top: 15vh;
+    padding-top: 10vh;
   }
 
   p.text{
@@ -83,11 +83,9 @@ hr{
   img.element{
     display: block;
     margin: auto;
-    max-width:100%;
+    max-width:auto;
     max-height:35%;
     background-color: rgba(0, 0, 0, 0.0);
-    max-width: 30%;
-
   }
   img.square{
     display: block;
@@ -114,7 +112,7 @@ hr{
     text-align: center;
     width: 16vw;
     border: none;
-    margin-top: 5vh;
+    margin-top: 2vh;
     height: 5vh;
     border-radius: 20px;
     font-size: 22px;
@@ -130,9 +128,11 @@ hr{
     background-color: rgba(200,200,200,1);
   }
 }
+/*computer screen*/
 
 
-@media only screen and (min-width: 319px) and (max-width: 505px) {
+/*mobile phone portrait*/
+@media only screen and (min-width: 319px) and (max-width: 520px) and (orientation:portrait) {
 
   #prireditve{
     padding-top: 2vh;
@@ -167,29 +167,29 @@ hr{
     color: rgba(86, 109, 123,1);
     background-color: rgba(255,255,255,0.7);
     text-align: center;
-    width: 35vw;
+    width: 45vw;
     border: none;
-    margin-top: 2vh;
+    margin-top: 5vh;
     height: 5vh;
     border-radius: 20px;
   }
 
   hr{
     height:3px;
-    width:15vw;
+    width:20vw;
     border:none;
     color:#3A2511;
     background-color: rgba(200,200,200,1);
   }
 
   .element{
-    height:60vh;
+    height:80vh;
     width:auto;
     border-radius: 2px;
     border-width: 1px;
     border-color: red;
-    background-color: rgba(169,146,132,0.95);
-    padding-top: 0vh;
+    background-color: rgba(150,150,150,0.8);
+    padding-top: 5vh;
     margin-top: 0vh;
     border-radius: 20px;
   }
@@ -205,3 +205,4 @@ hr{
   height: auto;
 }
 }
+/*mobile phone portrait*/
