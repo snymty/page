@@ -1,3 +1,20 @@
+
+#start{
+  background-image: url(../images/img/bgd-max.jpg);
+  height:100vh;
+}
+.parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.container-padding{
+  padding-top: 5vh;
+}
+
 p.text{
   color:rgba(0,0,0,1);
   text-align: center;
@@ -20,12 +37,12 @@ img.square{
 
 .element{
   height:60vh;
-  width:22vw;
+  width:20vw;
   border-radius: 2px;
   border-width: 1px;
   border-color: red;
   background-color: rgba(169,146,132,0.7);
-  padding-top: 1vh;
+  margin-top: 15vh;
   border-radius: 20px;
 }
 
@@ -48,4 +65,143 @@ hr{
   border:none;
   color:#3A2511;
   background-color: rgba(200,200,200,1);
+}
+
+@media only screen and (min-width: 1919px) {
+
+  .container-padding{
+    padding-top: 15vh;
+  }
+
+  p.text{
+    color:rgba(0,0,0,1);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1vh;
+
+  }
+  img.element{
+    display: block;
+    margin: auto;
+    max-width:100%;
+    max-height:35%;
+    background-color: rgba(0, 0, 0, 0.0);
+    max-width: 30%;
+
+  }
+  img.square{
+    display: block;
+    margin: auto;
+    max-width:100%;
+    max-height:35%;
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+
+  .element{
+    height:50vh;
+    width:20vw;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: red;
+    background-color: rgba(169,146,132,0.7);
+    padding-top: 1vh;
+    border-radius: 20px;
+  }
+
+  .button{
+    color: rgba(86, 109, 123,1);
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    width: 16vw;
+    border: none;
+    margin-top: 5vh;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 22px;
+  }
+  .button-text{
+    text-align: center;
+  }
+  hr{
+    height:2px;
+    width:5vw;
+    border:none;
+    color:#3A2511;
+    background-color: rgba(200,200,200,1);
+  }
+}
+
+
+@media only screen and (min-width: 319px) and (max-width: 505px) {
+
+  #prireditve{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-image: url(../images/img/mic-bw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #a1{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-image: url(../images/img/cilji.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #biotherm{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-image: url(../images/img/ponudba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .container-padding{
+    padding-top: 0;
+  }
+
+  .button{
+    color: rgba(86, 109, 123,1);
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    width: 35vw;
+    border: none;
+    margin-top: 2vh;
+    height: 5vh;
+    border-radius: 20px;
+  }
+
+  hr{
+    height:3px;
+    width:15vw;
+    border:none;
+    color:#3A2511;
+    background-color: rgba(200,200,200,1);
+  }
+
+  .element{
+    height:60vh;
+    width:auto;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: red;
+    background-color: rgba(169,146,132,0.95);
+    padding-top: 0vh;
+    margin-top: 0vh;
+    border-radius: 20px;
+  }
+.parallax {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#start {
+  background-image: none;
+  padding: 0 0 0 0;
+  height: auto;
+}
 }
