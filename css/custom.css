@@ -3,6 +3,16 @@
   background-image: url(../images/img/bgd-max.jpg);
   height:100vh;
 }
+
+.my-container{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.row{
+  margin: 0 0 0 0;
+  padding-top: 5vh;
+}
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +28,7 @@
 p.text{
   color:rgba(0,0,0,1);
   text-align: center;
-  font-size: 16px;
+  font-size: 2.5vh;
 }
 img.element{
   display: block;
@@ -55,6 +65,7 @@ img.square{
   margin-top: 2vh;
   height: 5vh;
   border-radius: 20px;
+  font-size: 2.6vh;
 }
 .button-text{
   text-align: center;
@@ -66,9 +77,26 @@ hr{
   color:#3A2511;
   background-color: rgba(200,200,200,1);
 }
-/*computer screen*/
+
+
+/*computer screen HD*/
 @media only screen and (min-width: 1919px) {
 
+  #prireditve{
+    margin-left: 3vw;
+  }
+  .my-container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .row{
+    margin: 0 0 0 0;
+    padding-top: 5vh;
+  }
+  .col-sm-3{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .container-padding{
     padding-top: 10vh;
   }
@@ -76,14 +104,14 @@ hr{
   p.text{
     color:rgba(0,0,0,1);
     text-align: center;
-    font-size: 20px;
+    font-size: 2.5vh;
     padding-top: 1vh;
 
   }
   img.element{
     display: block;
     margin: auto;
-    max-width:auto;
+    max-width:100%;
     max-height:35%;
     background-color: rgba(0, 0, 0, 0.0);
   }
@@ -128,15 +156,17 @@ hr{
     background-color: rgba(200,200,200,1);
   }
 }
-/*computer screen*/
+/*computer screen HD*/
 
 
 /*mobile phone portrait*/
-@media only screen and (min-width: 319px) and (max-width: 520px) and (orientation:portrait) {
+@media only screen and (min-width: 319px) and (max-width: 767px) and (orientation:portrait) {
 
   #prireditve{
     padding-top: 2vh;
     padding-bottom: 2vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
     background-image: url(../images/img/mic-bw.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -145,6 +175,8 @@ hr{
   #a1{
     padding-top: 2vh;
     padding-bottom: 2vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
     background-image: url(../images/img/cilji.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -153,10 +185,27 @@ hr{
   #biotherm{
     padding-top: 2vh;
     padding-bottom: 2vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
     background-image: url(../images/img/ponudba.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .my-container{
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
+  .row{
+    margin: 0 0 0 0;
+    padding-top: 0vh;
+  }
+
+  p.text{
+    color:rgba(0,0,0,1);
+    text-align: center;
+    font-size: 5vw;
   }
 
   .container-padding{
@@ -170,12 +219,13 @@ hr{
     width: 45vw;
     border: none;
     margin-top: 5vh;
-    height: 5vh;
+    height: 6vh;
     border-radius: 20px;
+    font-size: 4vw;
   }
 
   hr{
-    height:3px;
+    height:0.5vh;
     width:20vw;
     border:none;
     color:#3A2511;
@@ -192,6 +242,8 @@ hr{
     padding-top: 5vh;
     margin-top: 0vh;
     border-radius: 20px;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
 .parallax {
   background-size: auto;
@@ -206,3 +258,182 @@ hr{
 }
 }
 /*mobile phone portrait*/
+
+/*mobile phone landscape*/
+@media only screen and (min-width: 319px) and (max-width: 767px) and (orientation:landscape) {
+  #start {
+    background-image: none;
+    padding: 0 0 0 0;
+    height: auto;
+  }
+
+  #prireditve{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-image: url(../images/img/mic-bw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #a1{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-image: url(../images/img/cilji.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #biotherm{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    background-image: url(../images/img/ponudba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .my-container{
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
+  .row{
+    margin: 0 0 0 0;
+    padding-top: 0vh;
+  }
+
+  p.text{
+    color:rgba(0,0,0,1);
+    text-align: center;
+    font-size: 5vh;
+  }
+
+  .container-padding{
+    padding-top: 0;
+  }
+
+  .button{
+    color: rgba(86, 109, 123,1);
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    width: 25vw;
+    border: none;
+    margin-top: 1vh;
+    height: 7vh;
+    border-radius: 20px;
+    font-size: 4vh;
+  }
+
+  hr{
+    height:0.5vh;
+    width:20vw;
+    border:none;
+    color:#3A2511;
+    background-color: rgba(200,200,200,1);
+  }
+
+  .element{
+    height:96vh;
+    width:50vw;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: red;
+    background-color: rgba(150,150,150,0.8);
+    padding-top: 5vh;
+    margin-top: 0vh;
+    border-radius: 20px;
+    margin-left: 25vw;
+  }
+.parallax {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+}
+/*mobile phone landscape*/
+
+@media only screen and (min-width: 768px)and (max-width: 1024px){
+  #start{
+    background-image: url(../images/img/bgd-max.jpg);
+    height:100vh;
+  }
+  #prireditve{
+
+  }
+  .parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .my-container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .row{
+    margin: 0 0 0 0;
+    padding-top: 0vh;
+  }
+
+  .container-padding{
+    padding-top: 5vh;
+  }
+
+  p.text{
+    color:rgba(0,0,0,1);
+    text-align: center;
+    font-size: 16px;
+  }
+  img.element{
+    display: block;
+    margin: auto;
+    max-width:100%;
+    max-height:25%;
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+  img.square{
+    display: block;
+    margin: auto;
+    max-width:100%;
+    max-height:25%;
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+
+  .element{
+    height:55vh;
+    width:25vw;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: red;
+    background-color: rgba(169,146,132,0.7);
+    margin-top: 15vh;
+    border-radius: 20px;
+  }
+
+  .button{
+    color: rgba(86, 109, 123,1);
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    width: 16vw;
+    border: none;
+    margin-top: 2vh;
+    height: 5vh;
+    border-radius: 20px;
+  }
+  .button-text{
+    text-align: center;
+  }
+  hr{
+    height:2px;
+    width:5vw;
+    border:none;
+    color:#3A2511;
+    background-color: rgba(200,200,200,1);
+  }
+}
